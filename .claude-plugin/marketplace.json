@@ -1,0 +1,11 @@
+{
+  "name": "prepare-for-compact",
+  "owner": { "name": "Martilias Farrell" },
+  "plugins": [
+    {
+      "name": "prepare-for-compact",
+      "source": "./",
+      "description": "Saves session state before Claude Code compacts: runs the prepare-for-compact skill first, or writes a handoff note when the context is too full for it."
+    }
+  ]
+}

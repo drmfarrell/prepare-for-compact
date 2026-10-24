@@ -1,0 +1,16 @@
+{
+  "name": "prepare-for-compact",
+  "version": "0.1.0",
+  "description": "Saves session state before Claude Code compacts: runs the prepare-for-compact skill first, or writes a handoff note when the context is too full for it.",
+  "author": { "name": "Martilias Farrell" },
+  "repository": "https://github.com/drmfarrell/prepare-for-compact",
+  "license": "MIT",
+  "userConfig": {
+    "commitWhenAway": {
+      "type": "boolean",
+      "title": "Commit when away",
+      "description": "When Claude Code compacts an idle session on its own, let the skill commit finished work. Off: it writes the handoff note and commits nothing.",
+      "default": false
+    }
+  }
+}
